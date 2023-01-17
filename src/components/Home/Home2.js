@@ -7,7 +7,7 @@ import {
   AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaAngellist, FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
   return (
@@ -19,27 +19,25 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              Legos made me fall in love with programming and it just never lost that spark ✨
               <br />
-              <br />I am fluent in classics like
+              <br />I've learned to use languages like
               <i>
-                <b className="purple"> C++, Javascript and Python. </b>
+                <b className="purple"> Javascript and Python. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My field of interest are building &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
+                <b className="purple">Client Facing React Apps </b> and
+                {" "}
                 <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
+                  improving customer experience and retention.
                 </b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              I love to explore new technologies and implement things such as <b className="purple">Node.js</b> and
               <i>
                 <b className="purple">
                   {" "}
@@ -48,7 +46,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> React.js and Express.js</b>
               </i>
             </p>
           </Col>
@@ -103,6 +101,16 @@ function Home2() {
                   className="icon-colour home-social-icons"
                 >
                   <AiFillInstagram />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://angel.co/u/efrain-saldana"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <FaAngellist />
                 </a>
               </li>
             </ul>
