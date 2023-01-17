@@ -34,8 +34,8 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
-          <p style={{ color: "steelblue", fontWeight: 700, fontSize: "2rem", margin: 0 }}>efrain.s()</p>
+        <Navbar.Brand className="d-flex">
+          <Link to="/" style={{textDecoration: "none"}}><p style={{ color: "steelblue", fontWeight: 700, fontSize: "2rem", margin: 0 }}>efrain.s()</p></Link>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
