@@ -6,6 +6,7 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
+import efrainImage from "../../Assets/efrainImage.jpg";
 
 function About() {
   return (
@@ -22,7 +23,7 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-             A little more about <strong className="purple">me</strong>
+              A little more about <strong className="purple">me</strong>
             </h1>
             <Aboutcard />
           </Col>
@@ -31,7 +32,7 @@ function About() {
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" />
+            <img style={{ borderRadius: "100%", position: "relative", zIndex: 15 }} src={efrainImage} alt="about" className="img-fluid" />
           </Col>
         </Row>
         <h1 className="project-heading">

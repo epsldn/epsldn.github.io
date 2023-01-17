@@ -27,7 +27,7 @@ function Home2() {
               </i>
               <br />
               <br />
-              My field of interest are building &nbsp;
+              My field of interest are building&nbsp;
               <i>
                 <b className="purple">Client Facing React Apps </b> and
                 {" "}
